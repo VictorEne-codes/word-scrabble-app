@@ -23,7 +23,7 @@ body{
     font-size: 30px;
     color: yellow;
 }
-.container .hint-btn{
+.container .hint-btn, .container .submit-btn{
     background-color: rgb(76, 76, 233);
     border: none;
     outline: none;
@@ -33,8 +33,8 @@ body{
     font-size: 20px;
     color: white;
 }
-.container .hint{
-    color: rgb(76, 76, 233);
+.container .hint, .container .comment{
+    color: white;
     font-size: 20px;
 }
 input{
@@ -45,7 +45,12 @@ input{
     border-radius: 10px;
     padding-left: 10px;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 input::placeholder{
     font-size: 18px;
+}
+.container .score {
+    font-size: 25px;
+    color: white;
 }
