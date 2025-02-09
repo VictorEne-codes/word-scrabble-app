@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h2>Word Scramble Game</h2>
+    <p id="scrambled-word"></p>
+    <button onclick="showHint()">Hint</button>
+    <p id="hint"></p>
+    <input type="text" id="guess-input" placeholder="Enter your guess">
+    <button onclick="checkGuess()">Submit</button>
+    <p id="message"></p>
+    <p>Score: <span id="score">0</span></p>
 
     <script src="script.js"></script>
 </body>
