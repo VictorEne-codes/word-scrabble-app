@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h2{
+    font-size: 60px;
+    color: rgb(76, 76, 233);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .scrabbled-word{
+    font-size: 30px;
+    color: yellow;
+}
+.container .hint-btn{
+    background-color: rgb(76, 76, 233);
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+}
+.container .hint{
+    color: rgb(76, 76, 233);
+    font-size: 20px;
+}
+input{
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+input::placeholder{
+    font-size: 18px;
+}

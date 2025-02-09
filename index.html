@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Scrabble App</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h2>Word Scramble Game</h2>
-    <p id="scrambled-word"></p>
-    <button onclick="showHint()">Hint</button>
-    <p id="hint"></p>
-    <input type="text" id="guess-input" placeholder="Enter your guess">
-    <button onclick="checkGuess()">Submit</button>
-    <p id="message"></p>
-    <p>Score: <span id="score">0</span></p>
+    <div class="container">
+        <h2>Word Scrabble Game</h2>
+        <p class="scrabbled-word" id="scrabbled-word"></p>
+        <button class="hint-btn" onclick="showHint()">Hint</button>
+        <p class="hint" id="hint"></p>
+        <input type="text" id="guess-input" placeholder="Enter your guess">
+        <button class="submit-btn" onclick="checkGuess()">Submit</button>
+        <p class="comment" id="message"></p>
+        <p class="score">Score: <span id="score">0</span></p>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
