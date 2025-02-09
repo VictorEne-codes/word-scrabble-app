@@ -18,6 +18,7 @@ body{
     font-size: 60px;
     color: rgb(76, 76, 233);
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 .container .scrabbled-word{
     font-size: 30px;
